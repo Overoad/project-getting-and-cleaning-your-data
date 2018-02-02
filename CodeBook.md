@@ -32,22 +32,17 @@ The following files are available for the train and test data. Their description
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
 ## variables description
-
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
-
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
-
 We have multiples variables with abbreviation like "tGravityAccMag" so i will present abbreviation instead of variables.
 
-.Acc = 3-axial accelerometer measurement 
-.Gyro = 3-axial Angular velocity from the gyroscope. 
-.t = time
-.Body = related to body movement.
-.Gravity = acceleration of gravity
-.Jerk = sudden movement acceleration (derived body linear acceleration and angular velocity)
-.Mag = magnitude of movement (calculated using the Euclidean norm of three-dimensional signals )
-.f = fast fourier transform
-.mean and std(standard deviation) are calculated for each subject for each activity
+- Acc = 3-axial accelerometer measurement 
+- Gyro = 3-axial Angular velocity from the gyroscope. 
+- t = time
+- Body = related to body movement.
+- Gravity = acceleration of gravity
+- Jerk = sudden movement acceleration (derived body linear acceleration and angular velocity)
+- Mag = magnitude of movement (calculated using the Euclidean norm of three-dimensional signals )
+- f = fast fourier transform
+- mean and std(standard deviation) are calculated for each subject for each activity
 
 ## data transformation performed by run_analysis.R
 
